@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-from typing import Any, Callable, List
+from typing import Any, Callable, List, Dict
 from functools import wraps
 
 class VerifiableRewardLibrary:

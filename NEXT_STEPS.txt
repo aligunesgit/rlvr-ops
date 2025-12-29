@@ -1,0 +1,20 @@
+RLVR-Ops Framework - Next Steps
+================================
+
+Current Status: Foundation Complete (20%)
+
+Immediate Actions:
+1. Install dependencies: pip install transformers datasets torch
+2. Integrate GPT-2 model with full training
+3. Load GSM8k dataset (7,473 problems)
+4. Run first training experiment
+
+Project Location:
+/Users/aligunes/Desktop/RLVR-Ops-Project
+
+Quick Commands:
+- Open project: code /Users/aligunes/Desktop/RLVR-Ops-Project
+- Run example: python3 examples/math/gsm8k_example_simple.py
+- Check roadmap: cat ROADMAP.md
+
+Target: IEEE TSE paper by April 2025
