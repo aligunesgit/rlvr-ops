@@ -1,0 +1,18 @@
+experiment_name: rlvr_gsm8k
+dataset: gsm8k
+
+model:
+  hidden_size: 768
+  num_layers: 12
+
+training:
+  k_rollouts: 4
+  temperature: 1.0
+  learning_rate: 1e-5
+  num_epochs: 20
+  batch_size: 16
+  save_every: 5
+
+reward:
+  type: exact_match
+  threshold: 0.9

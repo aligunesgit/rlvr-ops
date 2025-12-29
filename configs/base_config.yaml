@@ -1,0 +1,22 @@
+model:
+  hidden_size: 768
+  num_layers: 12
+  vocab_size: 50257
+
+training:
+  k_rollouts: 4
+  temperature: 1.0
+  learning_rate: 1e-5
+  num_epochs: 10
+  batch_size: 8
+  save_every: 5
+  device: cuda
+
+optimization:
+  gradient_clip: 1.0
+  warmup_steps: 100
+
+logging:
+  log_dir: logs
+  log_every: 10
+  use_wandb: false
