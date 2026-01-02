@@ -16,7 +16,7 @@ authors:
 affiliations:
   - name: Subduxion, Netherlands
     index: 1
-date: 3 January 2025
+date: 3 January 2026
 bibliography: paper.bib
 ---
 
@@ -24,7 +24,8 @@ bibliography: paper.bib
 
 Reinforcement Learning with Verifiable Rewards (RLVR) has emerged as a powerful paradigm for training large language models, as demonstrated by recent systems such as DeepSeek-R1 and OpenAI's o1 series. Unlike traditional Reinforcement Learning from Human Feedback (RLHF), RLVR leverages objective, automatically verifiable reward signals—such as mathematical correctness, code execution results, or factual accuracy—enabling more reliable optimization without costly human feedback loops. However, deploying RLVR models in production environments presents significant challenges due to the lack of specialized infrastructure for multi-rollout generation, verifiable reward computation, and policy gradient optimization.
 
-RLVR-Ops addresses this critical infrastructure gap by providing the first comprehensive, production-oriented MLOps framework specifically designed for RLVR workflows. The framework offers modular components for the complete RLVR lifecycle: training orchestration, reward verification, deployment automation, and continuous monitoring. RLVR-Ops enables practitioners to rapidly prototype and deploy RLVR systems without developing custom infrastructure from scratch.
+RLVR-Ops addresses this critical infrastructure gap by providing a comprehensive and production-oriented MLOps framework tailored to RLVR workflows. The framework offers modular components for the complete RLVR lifecycle: training orchestration, reward verification, deployment automation, and continuous monitoring. RLVR-Ops enables practitioners to rapidly prototype and deploy RLVR systems without developing custom infrastructure from scratch. These systems are cited solely as motivating examples; RLVR-Ops does not reproduce, depend on, or benchmark against proprietary implementations.
+
 
 # Statement of Need
 
