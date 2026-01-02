@@ -12,3 +12,11 @@ venv/
 checkpoints/
 wandb/
 .DS_Store
+
+# Temporary test files
+analyze_quick.py
+baselines.py
+baselines_fixed.py
+quick_baselines.py
+quick_test.py
+train_quick.py

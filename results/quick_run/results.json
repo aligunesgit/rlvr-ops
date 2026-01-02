@@ -1,0 +1,19 @@
+{
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_acc": 0.04,
+      "val_acc": 0.1
+    },
+    {
+      "epoch": 2,
+      "train_acc": 0.06,
+      "val_acc": 0.03333333333333333
+    },
+    {
+      "epoch": 3,
+      "train_acc": 0.01,
+      "val_acc": 0.0
+    }
+  ]
+}
